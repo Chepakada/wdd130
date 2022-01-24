@@ -1,3 +1,8 @@
-:body {
+body {
     background-color: pink;
+}
+.icon {
+    border:10px;
+    width: 2em;
+    height: 2em
 }
