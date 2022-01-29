@@ -1,0 +1,43 @@
+body{
+    margin-top: 5%;
+    margin-left:20%;
+    margin-right:20%;
+    background-color: pink;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+h1 {
+    Font: size 34p;
+}
+h2 {
+    font-size: 18px;
+}
+h3 {
+    text-align: right;
+}
+#blackwords {
+    text-align:left;
+    font: size 16px;
+    color:black; 
+    font-weight: bold;
+}
+li{
+    padding:0.3em 0;
+}
+img {
+    width:150px;
+    height:175px;
+    display: block;
+    margin:0 auto;
+    
+}
+figure {
+    color:white;
+    margin: 90px;
+    text-align: center;
+
+}
+figcaption{
+    text-align: center;
+}
