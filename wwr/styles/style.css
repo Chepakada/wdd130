@@ -1,6 +1,42 @@
-body {
-    background-color: rgb(233, 221, 241);
+#content {
+    max-width:1600px;
+    margin: 0 auto;
 }
+nav {
+    text-align: center;
+    ;
+}
+nav a:hover {
+    text-align: center;
+    background-color: #d5f1d2;
+    color:yellowgreen;
+    text-decoration: none;
+}
+.hero_images{
+    text-align: center;
+    background-color:#d5f1d2;
+    color:#2F4550;
+}
+.listings{
+    text-align: center;
+}
+
+
+header{
+    background-color: rgb(124, 165, 184, 0.2);
+}
+footer{
+    background-color: rgb(124, 165, 184, 0.5);
+   color : whitesmoke; 
+}
+footer a:hover{
+    background-color:rgb(124, 165, 184, 0.8) ;
+    color:whitesmoke;
+}
+body {
+    background-color: rgb(230, 241, 223);
+}
+
 .icon {
     border:10px;
     width: 2em;
