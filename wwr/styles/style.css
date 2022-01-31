@@ -4,7 +4,14 @@
 }
 nav {
     text-align: center;
-    ;
+    text-decoration: none;
+    
+}
+nav a img{
+    width: 80px;
+}
+a{
+    text-decoration: none;
 }
 nav a:hover {
     text-align: center;
@@ -20,8 +27,14 @@ nav a:hover {
 .listings{
     text-align: center;
 }
-
-
+.rapids-card img{
+    height:200px;
+    width:300px;
+}
+#background{
+    height: 725px;
+    background-color: rgb(123, 155, 123);
+}
 header{
     background-color: rgb(124, 165, 184, 0.2);
 }
@@ -39,6 +52,5 @@ body {
 
 .icon {
     border:10px;
-    width: 2em;
-    height: 2em
+    width: 80px;
 }
