@@ -1,35 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Mochiy+Pop+P+One&family=Noto+Sans&family=Supermercado+One&display=swap');
 #content {
     max-width:1600px;
     margin: 0 auto;
 }
 nav {
     text-align: center;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
+.home_title{
+    font-size: 2em;
+    font-family: Dongle, Noto-sans ,arial;
+    margin-top: 10px;
+}
+
+h1,h2,h3,h4, .msg h{
+    font-family: Dongle, Noto-sans ,arial;
+    font-size: 1.2em;
+    padding:0;
+    margin:0;
+}
+
 nav a img{
     width: 80px;
+    padding-top: 5px;
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+    padding:35px;
 }
 a{
     text-decoration: none;
+
 }
 nav a:hover {
     text-align: center;
     background-color: #d5f1d2;
     color:yellowgreen;
     text-decoration: none;
+    padding:35px;
 }
 .hero_images{
     text-align: center;
     background-color:#d5f1d2;
     color:#2F4550;
+    box-sizing: border-box;
 }
 .listings{
     text-align: center;
+    margin: 200px 0;
+}
+.icon {
+    border:10px;
+    width: 80px;
+    padding:10px;
+}
+.listing_img{
+    border: 10px solid rgb(111, 184, 111);
+    width:350px;
 }
 .rapids-card img{
     height:200px;
     width:300px;
+    margin: 200px;
+    border: 10px solid rgb(111, 184, 111);
 }
 #background{
     height: 725px;
@@ -40,17 +74,34 @@ header{
 }
 footer{
     background-color: rgb(124, 165, 184, 0.5);
-   color : whitesmoke; 
+    color : whitesmoke; 
+    padding: 25px 50px;
+    margin-top: 200px;
+
 }
 footer a:hover{
     background-color:rgb(124, 165, 184, 0.8) ;
     color:whitesmoke;
+    padding-top: 15px;
 }
 body {
     background-color: rgb(230, 241, 223);
+    font-family:"Supermercado one", "Brush Script MT";
+    font-size: 22px;
+    padding:0;
+    margin:0;
 }
-
-.icon {
-    border:10px;
-    width: 80px;
+.msg{
+    padding: 35px;  
+}
+.msg p{
+    padding-bottom:15px;
+    font-size:  0.8em;
+}
+.book, .join{
+    padding: 15px 30px;
+    font-size:18px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 5px;
 }
