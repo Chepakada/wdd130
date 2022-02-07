@@ -45,6 +45,7 @@ nav a:hover {
     background-color:#d5f1d2;
     color:#2F4550;
     box-sizing: border-box;
+    padding-bottom: 35px;
 }
 .listings{
     text-align: center;
@@ -105,5 +106,5 @@ body {
     text-align: center;
     border: 5px solid rgb(111, 184, 111);
     border-radius: 5px;
-
+    
 }
