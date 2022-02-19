@@ -140,12 +140,19 @@ footer{
     color : whitesmoke; 
     padding: 25px 50px;
     margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition:0.4s;
 
 }
 footer a:hover{
     background-color:rgb(124, 165, 184, 0.8) ;
     color:whitesmoke;
     padding-top: 15px;
+    width:150%;
+    font-size: 1.5em;
+    transition: 0.4s;
 }
 body {
     background-color: rgb(230, 241, 223);
