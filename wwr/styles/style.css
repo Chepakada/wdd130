@@ -80,9 +80,9 @@ nav a:hover {
     margin-top: 150px;
     font-size: 1.8em;
 }
-h1,h2,h3,h4, .msg h{
+h2,h3,h4, .msg h{
     font-family: Dongle, Noto-sans ,arial;
-    font-size: px;
+    font-size: 25px;
     padding:0;
     margin:0;
 }
@@ -199,7 +199,6 @@ body {
 .listings{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-row: 1fr;
 }
 #firstonlist{
     grid-column: 2/4;
@@ -216,8 +215,6 @@ body {
 .messege{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-row: 1fr 0.8fr 3fr 1fr 1fr;
-
 }
 #background{
     grid-column:1/11;
