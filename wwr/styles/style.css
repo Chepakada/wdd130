@@ -234,5 +234,49 @@ body {
     z-index: 1;
     width: 800px;
 }
+@media screen and (max-width: 900px){
+.hero_images, .listings{
+    display: block;
+    height: auto;
+}
+nav{
+    display: block;
+}
+.header_links, footer{
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+.hero_box{
+    max-width: 500px;
+    margin-top: 400px;
 
+}
+.home_title{
+    margin:0;
+}
+nav a{
+    display: block;
+    padding: 15px;
+}
 
+.listing_img{
+    margin:50px auto;
+}
+#background{
+    display:none;
+}
+.messege{
+    display: block;
+}
+.mountains{
+    width:80%;
+    display: block;
+    margin:0 auto;
+}
+header{
+    position:static;
+    background-color:rgb(124, 165, 184, 0.2) ;
+}
+
+}
+    
