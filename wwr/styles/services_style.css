@@ -85,14 +85,13 @@ h2,h3,h4, .msg h{
     display: grid;
     grid-template-rows:300px 300px;
     gap:40px;
-    margin: 10px;
-    
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .box1, .box2{
     background-color:rgb(123, 155, 123);
     position: relative;
-    width: 150px;
-    height: 150px;
+   
 }
 .boxes img{
     width: 400px;
@@ -132,15 +131,18 @@ footer{
 }
 .adver1{
     position:absolute;
-    top:155%;
-    display:inline;}
+    top:163%;
+    display:inline;
+    
+}
 
 .adver2{
     position:absolute;
-    top:155%;
+    top:163%;
     left:87%;
-    display: inline;
-    }
+    display: inline;    
+   
+}
 
     
 
@@ -172,7 +174,7 @@ footer a:hover{
     .boxes{
         display:flex;
         flex-direction: column;
-        overflow: clip;
+        overflow: hidden;
     }
     .book{
         position: static;
