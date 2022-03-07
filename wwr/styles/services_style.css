@@ -38,6 +38,7 @@ nav {
     grid-template-columns: 150px auto;
     opacity: 1;
     width:100%;
+    font-size:2em ;
     
 }  
     
@@ -57,6 +58,7 @@ nav a{
     text-align: center;
     text-decoration: none;
     padding:10px;
+    
      
 }
 a{
