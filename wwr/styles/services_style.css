@@ -76,7 +76,7 @@ nav a:hover {
 }
 
 
-h2,h3,h4, .msg h{
+h1,h2,h3,h4, .msg h{
     font-family:var(--heading_font);
     font-size: 45px;
     padding:0;
@@ -161,6 +161,44 @@ footer a:hover{
     font-size: 1.5em;
     transition: 0.4s;
 }
+#content_contactus{
+    box-sizing: border-box;
+    background-color:rgb(230, 241, 223);
+    
+
+}
+#content_contactus h1{
+    font-size: 58px;
+}
+form input{
+    display: block;
+    margin-bottom: 10px;
+    
+}
+form{
+    max-width:50%;
+    margin:auto;
+    border: 3px solid green;
+    background-color: rgb(184, 243, 184);
+    color:black;
+    font-size: 30px;
+    overflow: hidden;
+}
+form input, textarea, button{
+    padding: 3px;
+    font-size: 32px;
+}
+.box_content{
+    margin: 3%;
+    
+}
+#feedback{
+    background-color: rgb(155, 243, 155);
+    border:1px solid green;
+    position:fixed;
+}
+
+
 @media screen and (max-width: 900px){
     .adver1,.adver2{
         display: none;
@@ -182,3 +220,4 @@ footer a:hover{
         position: static;
     }
 }
+

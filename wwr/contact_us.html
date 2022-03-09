@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactUs</title>
+    <link rel="stylesheet" href="styles/services_style.css">
+</head>
+
+<body>
+    <div id="content_contactus">
+        <header>
+            <nav>
+                <a id="logo_link" href="index.html"> <img src="images/logo.png" alt="The logo of brand" height=100></a>
+                <div class="header_links">
+                    <a href="services.html">Services</a>
+                    <a href="pageB">Informations</a>
+                    <a href="pageC">Offers</a>
+                    <a href="pageD">Job Oppurtinities</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div id="feedback"></div>
+
+            <h1>Please input following Information</h1>
+            <form action="">
+                <div class="box_content">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname" autofocus autocapitalize="" placeholder="Jane">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lname" placeholder="Doe">
+                    <label for="email">e-Mail ID</label>
+                    <input type="email" id="email" name="email" placeholder="jane@joe.com">
+                    <label for="phone_no">Phone Number</label>
+                    <input type="tel" id="phone_no" name="phone_no" placeholder="+1 555888555">
+                    <label for="user_name">User Name</label>
+                    <input type="text" id="user_name" name="user_name" placeholder="Jonsnow">
+                    <label for="self_info">Your messege</label>
+                    <textarea name="self_info" id="self_info" cols="30" rows="10"
+                        placeholder="Submit your comment....."></textarea>
+
+                    <button class="listener">Submit</button>
+                </div>
+
+
+            </form>
+
+        </main>
+        <footer>
+            <h3>Trisuli Raftings; 20XX -&copy; 2022 Prashant Lamichhane</h3>
+            <h3><a href="site-plan-rafting.html">Site Plan</a></h3>
+            <h3><a href="contactus.html">Contact Us</a></h3>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.jpg" alt="fb icon" width=30 height=30>
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon" width=25 height=25>
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon" width=25 height=25>
+                </a>
+            </div>
+        </footer>
+
+</body>
+<script>
+    // get the feedback div element so we can do something with it.
+    const feedbackElement = document.getElementById('feedback');
+    // get the form so we can read what was entered in it.
+    const formElement = document.forms[0];
+    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+    formElement.addEventListener('submit', function (e) {
+        // stop the form from doing the default action.
+        e.preventDefault();
+        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+        feedbackElement.innerHTML = 'Hello ' + formElement.fname.value +
+            '! Thank you for your message. We will get back with you as soon as possible!';
+        // make the feedback element visible.
+        feedbackElement.style.display = "block";
+        // add a class to move everything down so our message doesn't cover it.
+        document.body.classList.toggle('moveDown');
+    });
+</script>
+
+</html>
