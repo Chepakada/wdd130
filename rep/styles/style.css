@@ -240,7 +240,7 @@ h1{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    gap:-2px;
+
     
 }
 main{
@@ -276,6 +276,7 @@ footer h3{
 }
 
 @media screen and (max-width:900px) {
+    
     header{
         height: 300px;
         display: flex;
@@ -288,6 +289,11 @@ footer h3{
     }
     .logsign form{
         display: block;
+    }
+    .grids_page1{
+        display: flex;
+        flex-direction: column;
+        
     }
     footer{
         display: flex;
