@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Book List</title>
 </head>
 <body> 
@@ -18,32 +19,46 @@
                 <a href="trade.html">Trades</a>
                 <a href="#">Page 3</a>
             </nav>
-            <div class="logsign">
-                <a href="#">Sign In</a>
-                <a href="#">Log In</a>
             </div>
-        </div>
-        </header>
+            <div class="logsign">
+                <form>
+                    <label for="search">Search:</label>
+                    <input type="text" name="search" placeholder="books/author/isbn">
+                </form>
+                <a href="/wdd130/demos/trash_demo.html">Sign In</a>
+                <a href="/wdd130/demos/trash_demo.html">Log In</a>
+            </div>
+        
+    </header>
 
 
 
 <section class="top_function">
-    <div class="first_top"><a href="#">Borrow Books</a></div>
-    <div class="second_top"><a href="#">Lend Books</a></div>
-    <div class="third_top"><a href="#">Sell Books</a></div>
+    <div class="first_top"><a href="#"><h1>Borrow Books</h1></a></div>
+    <div class="second_top"><a href="#"><h1>Books</h1></a></div>
+    <div class="third_top"><a href="#"><h1>Sell Books</h1></a></div>
 </section>
 
 
 
 <main>
     <section class="grids_page1">
-        <div class="first"><a href="#"><img src="images/A_Song_of_Ice_and_Fire_book_collection_box_set_cover.jpg" alt=""></a></div>
+        <div class="first_row">
+        <div id="first" class="grid_image"><a href="#"><img src="images/A_Song_of_Ice_and_Fire_book_collection_box_set_cover.jpg" alt=""></a></div>
 
-        <div class="second"><a href="#"><img src="images/mistborn.jpg" alt="book cover"></a></div>
-        <div class="third"><a href="#"><img src="images/the_alchemist.jpg" alt="book cover"></a></div>
-        <div class="fouth"><a href="#"><img src="images/The_bands_of_Mourning.jpg" alt="book cover"></a></div>
-        <div class="fifth"><a href="#"><img src="images/Becoming.jpg" alt="book cover"></a></div>
-        <div class="sixth"><a href="#"><img src="images/save_the_cat.jpg" alt="book cover"></a></div>
+        <div id="second" class="grid_image"><a href="#"><img src="images/mistborn.jpg" alt="book cover"></a></div>
+        <div id="third" class="grid_image"><a href="#"><img src="images/the_alchemist.jpg" alt="book cover"></a></div>
+    </div>
+    <div class="second_row">
+        <div id="fouth" class="grid_image"><a href="#"><img src="images/The_bands_of_Mourning.jpg" alt="book cover"></a></div>
+        <div id="fifth" class="grid_image"><a href="#"><img src="images/Becoming.jpg" alt="book cover"></a></div>
+        <div id="sixth" class="grid_image"><a href="#"><img src="images/save_the_cat.jpg" alt="book cover"></a></div>
+    </div>
+    <div class="third_row">
+        <div id="seventh" class="grid_image"><a href="#"><img src="images/a_tale_of_two_cities.jpg" alt="book cover"></a></div>
+        <div id="eighth" class="grid_image"><a href="#"><img src="images/the_things_we_cannot_say.jpg" alt=""></a></div>
+        <div id="ninth" class="grid_image"><a href="#"><img src="images/the_last_thing_he_told_me.jpg" alt=""></a></div>
+    </div>
     </section>
 </main>
 
