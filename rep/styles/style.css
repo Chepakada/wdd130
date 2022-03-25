@@ -290,6 +290,9 @@ footer h3{
     .logsign form{
         display: block;
     }
+    .top_function{
+        display: none;
+    }
     .grids_page1{
         display: flex;
         flex-direction: column;
