@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Trade</title>
 </head>
 <body>
-    <header>
+    <header id="navbar">
         <div class="logo"><a href="index.html"><img src="images/pagelogo.jpg" alt="Pagelogo"></a></div>
         <div class="naviga">
             <nav>
@@ -15,18 +16,24 @@
                 <a href="trade.html">Trades</a>
                 <a href="#">Page 3</a>
             </nav>
-            <div class="logsign">
-                <a href="#">Sign In</a>
-                <a href="#">Log In</a>
-            </div>
+
+
         </div>
-        </header>
+        <div class="logsign">
+            <form>
+                <label for="search">Search:</label>
+                <input type="text" id="search" name="search" placeholder="books/author/isbn">
+            </form>
+            <a href="/wdd130/demos/trash_demo.html">Sign In</a>
+            <a href="/wdd130/demos/trash_demo.html">Log In</a>
+        </div>
+    </header>
     <main>
-        <section id="main_functions"><h2>There you go</h2>
-            <a href="#"><div class="fncn1">BUY</div></a>
-            <a href="#"><div class="fncn2">Sell</div></a>
-            <a href="#"><div class="fncn3">Lend</div></a>
-            <a href="#"><div class="fncn4">Borrow</div></a>
+        <section id="main_functions"><h1>There you go</h1>
+            <a href="#"><div id="one" class="fncn"><h2>BUY</h2></div></a>
+            <a href="#"><div id="two" class="fncn"><h2>SELL</h2></div></a>
+            <a href="#"><div id="three" class="fncn"><h2>LEND</h2></div></a>
+            <a href="#"><div id="four" class="fncn"><h2>BORROW</h2></div></a>
         </section>
     </main>
     <footer>

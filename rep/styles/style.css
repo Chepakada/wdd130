@@ -246,6 +246,7 @@ h1{
 main{
     width:80%;
     margin:auto;
+    margin-top:100px;
 
 }
 .grid_image{
@@ -255,7 +256,49 @@ main{
     width:350px;
     box-shadow:0px 3px 12px 10px rgb(128, 0, 128, 0.3);
 }
+#main_functions{
+    display: flex;
+    flex-direction:column;
+    
+}
+#main_functions h1{
+    padding:40px;
+    position: relative;
+    font-family: var(--heading-font);
+    font-size: 32px;
+    top:25%;
+    bottom:25%
+}
+#main_functions h2{
+    padding:40px;
+    position: relative;
+    top:25%;
+    bottom:25%
+}
 
+.fncn{
+    height:300px;
+    border: 3px solid var(--accent2-color);
+    margin:4px;
+    text-align: center;
+    justify-items: center;
+    font-family:var(--paragraph-font);
+    font-size:32px;
+}
+.fncn h2{
+    font-family:var(--paragraph-font);
+    font-size:32px;
+}
+#one{
+    background-image: linear-gradient(to bottom right, rgb(243, 219, 243,0.5), rgb(224, 28, 250, 0.7)  );
+}
+#two{
+    background-image: linear-gradient(to bottom right, rgba(234, 243, 219, 0.5), rgba(80, 250, 28, 0.7)  );
+}#three{
+    background-image: linear-gradient(to bottom right, rgba(197, 153, 164, 0.5), rgba(250, 28, 113, 0.7)  );
+}#four{
+    background-image: linear-gradient(to bottom right, rgba(185, 241, 237, 0.5), rgba(28, 190, 240, 0.7)  );
+}
 
 footer{
     background-image:url('footer.jpg');
