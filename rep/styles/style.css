@@ -259,6 +259,7 @@ main{
 #main_functions{
     display: flex;
     flex-direction:column;
+    font-family: var(--paragraph-font);
     
 }
 #main_functions h1{
