@@ -60,7 +60,7 @@ nav{
     font-size: 18px;
 }
 nav a{
-    padding:3px;
+    padding:12px;
 }
 nav a:hover{
     padding:3px;
@@ -322,6 +322,7 @@ footer h3{
 @media screen and (max-width:900px) {
     
     header{
+        width:100%;
         height: 300px;
         display: flex;
         flex-direction: column;
@@ -377,12 +378,7 @@ footer h3{
     .content{
         margin-top: 300px;
     }
-    .hero{
-        display: flex;
-        flex-direction: column;
-        
-
-    }
+    
     .writername{
         font-size: 12px;
     }
@@ -391,5 +387,15 @@ footer h3{
     }
     .heroimg{
         display: none;
+    }
+    .heromsg{
+        margin-left:25%;
+    }
+    .hero{
+        display:flex;
+        flex-direction: row;
+        
+        
+
     }
 }
